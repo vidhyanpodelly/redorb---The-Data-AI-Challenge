@@ -1,0 +1,48 @@
+# Python bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# System / Temporary files
+.DS_Store
+Thumbs.db
+tmp/
+temp/
+*.bak
+*.log
+.cache/
+
+# Large Dataset (Challenge Data)
+# Raw candidates database should not be redistributed in git due to size and privacy
+data/candidates.jsonl
+
+# Generated Model Precomputations
+# Reproducible from precompute.py and raw data
+models/candidate_embeddings.npy
+models/candidate_ids.json
+
+# Final Submission Outputs
+# Reproducible from rank.py; outputs are generated on demand and validated locally
+outputs/submission.csv
+outputs/submission.xlsx
+
+# System Cache / Prompt Guidelines
+masterprompt.txt
+
